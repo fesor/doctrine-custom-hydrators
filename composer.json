@@ -1,0 +1,29 @@
+{
+    "name": "fesor/doctrine-custom-hydrators",
+    "description": "Set of Doctrine Custom Hydrators",
+    "type": "library",
+    "autoload": {
+        "psr-4": {
+            "Fesor\\Doctrine\\CustomHydrator\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Tests\\Fesor\\Doctrine\\CustomHydrator\\": "tests/"
+        }
+    },
+    "require": {
+        "doctrine/orm": "^2.5"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^6.1"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Sergey Protko",
+            "email": "fesors@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable"
+}
